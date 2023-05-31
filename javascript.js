@@ -20,9 +20,7 @@ btn.addEventListener('click',(e)=>{
     }
     
     )
-    .catch(eror=>{
-        console.log('xato');
-    })
+
 })
 
 

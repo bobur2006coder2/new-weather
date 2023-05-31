@@ -11,15 +11,15 @@ btn.addEventListener('click',(e)=>{
         let gradus=document.querySelector('.for_gradus')
         cityName.textContent=data.name 
         gradus.textContent=Math.floor(data.main.temp )+' °C'
-        console.log(data.name);
+        // console.log(data.name);
+        btn.parentElement.parentElement.parentElement.parentElement.parentElement.style.background='url(https://source.unsplash.com/1600x900/?' + inp.value + ')'
         inp.value=''
     })
     .catch(err=>{
-        alert('Siz xato bo`lgan mamlakat nomini kiritdingiz');
+        alert('Siz xato bo`lgan mamlakat nomini kiritdingiz yoki malumot kiritmadingiz');
         inp.value=''
         cityName.textContent='Tashkent'
-        
-
     })
 })
 
+ 

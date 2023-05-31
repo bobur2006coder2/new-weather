@@ -6,7 +6,7 @@
 
 body{
     background: url('https://media.istockphoto.com/id/1129473522/photo/colorful-panoramic-mountain-view-at-sunrise.webp?b=1&s=170667a&w=0&k=20&c=t3cYkOCQJNIm_pmcxkZgJH7A7uWD4flhlAMp5dLEIdQ=');
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 
@@ -103,4 +103,21 @@ form{
         flex-wrap: wrap;
         justify-content: space-between;
     }
+    .box-card {
+        position: fixed;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        color: #f1f1f1;
+        width: 100%;
+        /* padding: 20px; */
+        z-index: 10;
+        top: 100px;
+        height: 350px;
+      }
+      body{
+        background: url('https://media.istockphoto.com/id/1129473522/photo/colorful-panoramic-mountain-view-at-sunrise.webp?b=1&s=170667a&w=0&k=20&c=t3cYkOCQJNIm_pmcxkZgJH7A7uWD4flhlAMp5dLEIdQ=');
+        background-size: 150vh;
+        background-repeat: no-repeat;
+    }
+      
   }

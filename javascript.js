@@ -9,13 +9,13 @@ btn.addEventListener('click',(e)=>{
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${value}&units=metric&appid=${key}`)
     .then((res) =>res.json())
     .then(data=>{
-       let city = document.querySelector(".this_city")
-       let gradus = document.querySelector(".for_gradus")
-       let temp = Math.floor(data.main.temp)
-       gradus.innerHTML = temp + " °C"
-       city.textContent = `${data.name}`
-       inp.value = ""
-       console.log(data);
+    //    let city = document.querySelector(".this_city")
+    //    let gradus = document.querySelector(".for_gradus")
+    //    let temp = Math.floor(data.main.temp)
+    //    gradus.innerHTML = temp + " °C"
+    //    city.textContent = `${data.name}`
+    //    inp.value = ""
+       console.log(data); 
     
     }
     

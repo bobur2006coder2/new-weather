@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background: url(./img/No_Copyright_Drone_Shots___Royalty_free_drone_shots___free_stock.mp4); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box-card{
+    background: rgba(38, 25, 25, 0.5);
+    height: 450px;
+    border-radius: 15px;
+}
+.container{
+    margin-top:  10vh;
+}
+
+.graf{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+form{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.inp{
+    width: 79%;
+    padding: 0px 5px 0px 10px;
+    /* padding: 10px 25px; */
+    border-radius: 5px;
+    border: 1px solid black;
+    outline: none;
+    height: 45px;
+    background-color: rgba(197, 188, 188, 0.5);
+    border: none;
+    color: white;
+}
+
+.inp:hover{
+    width: 79%;
+    padding: 0px 5px 0px 10px;
+    /* padding: 10px 25px; */
+    border-radius: 5px;
+    border: 1px solid black;
+    outline: none;
+    height: 45px;
+    background-color: rgba(248, 237, 237, 0.5);
+    border: none;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.btn_for_ipn{
+    width: 20%;
+    border-radius: 5px;
+    height: 45px;
+    background-color: rgba(36, 48, 57, 0.5);
+    color: #f1f1f1;
+    text-transform: capitalize;
+    border: none;
+    
+}
+
+
+/* bacround video */
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+  /* Add some content at the bottom of the video/page */
+  .box-card {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    /* padding: 20px; */
+    z-index: 10;
+    top: 100px;
+  }
+
+
+  @media (max-width:576px) {
+    form{
+        margin: 50px 1px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+  }

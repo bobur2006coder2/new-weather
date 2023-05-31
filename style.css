@@ -23,9 +23,10 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    /* flex-wrap: wrap; */
 }
 
-form{
+#form{
     margin: 50px;
     display: flex;
     align-items: center;
@@ -93,10 +94,12 @@ form{
     z-index: 10;
     top: 100px;
   }
-
+.inp::placeholder{
+    color: rgb(233, 224, 224);
+}
 
   @media (max-width:576px) {
-    form{
+    #form{
         margin: 50px 1px;
         display: flex;
         align-items: center;
